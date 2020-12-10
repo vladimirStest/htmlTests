@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1366px;
+    height: 800px;
+    background-image: url("img/background.jpg");
+    margin: 0 auto;
+    position: relative;
+}
+
+.padMar {
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+.clearFloat:after {
+    clear: both;
+    display: table;
+    content: "";
+}
+
+.header {
+    padding-top: 39px;
+}
+
+#logo {
+    float: left;
+    padding-top: 20px;
+}
+
+.menu {
+    float: right;
+}
+
+.menu li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px 13px;
+}
+
+.partMenu a {
+    font-weight: 300;
+    color: #8c8c8c;
+    text-decoration: none;
+}
+
+.activeMenu a {
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #212121;
+    border-bottom: 3px solid black;
+}
+
+.text {
+    margin-top: 150px;
+}
+
+.preH {
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #43a047;
+}
+
+.H {
+    font-family: Montserrat;
+    font-size: 62px;
+    line-height: 72px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.afterH {
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #6c6c6c;
+    width: 458px;
+}
+
+.button {
+    width: 212px;
+    height: 45px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 5px 0px rgba(33, 33, 33, 0.34);
+    border-radius: 22.5px;
+    text-align: center;
+}
+
+.button a {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #212121;
+}
+
+.circle {
+    width: 1170px;
+    margin: 5px;
+    position: absolute;
+    bottom: 159px;
+    text-align: center;
+}
+
+.bottom {
+    width: 30px;
+    height: 30px;
+    background-color: grey;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.activeCircle {
+    width: 40px;
+    height: 40px;
+    background-color: #212121;
+    border-radius: 20px;
+    display: inline-block;
+}
